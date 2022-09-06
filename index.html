@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper__full">
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__inner">
+                    <div class="photo_inner">
+                        <figure class="photo">
+                            <img src="assets/img/me.jpg" alt="photo">
+                            <div class="loc">
+                                <p class="loc__name">Andrei Afanasyeu</p>
+                                <p class="loc__from">Belarus, Mogilev</p>
+                                <a class="phone" href="tel:+375298404052">+375298404052(MTC)</a>
+
+                            </div>
+                        </figure>
+                    </div>
+                    <nav class="nav__contacts">
+                        <ul class="nav_info">
+                            <li class="nav__item">
+                                <a href="mailto:afonuk@mail.ru" class="nav__link">
+                                    <img src="assets/svg/email.svg" class="nav__icon" alt="skype">
+                                    Email</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="tel:+375298404052" class="nav__link">
+                                    <img src="assets/svg/phone.svg" class="nav__icon" alt="skype">
+                                    Phone</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="skype:drunkencanfly" class="nav__link">
+                                    <img src="assets/svg/skype.svg" class="nav__icon" alt="skype">
+                                    Skype</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <div class="wrapper">
+                    <div class="wrapper__info">
+                        <h1 class="about__me">About me</h1>
+                        <p class="about__info">Hi, my name is Andrei, I am 39 years old, I have no experience in
+                            programming, but I have a great desire to learn how to program. Of my strengths I can
+                            mention
+                            such as: the ability to the same type of monotonous work, friendliness, resistance to
+                            stress,
+                            the desire to learn something new.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="skills__wrapper">
+                    <div class="skills__info">
+                        <h2 class="skill">Skills:</h2>
+                        <ul class="skills__link">
+                            <li class="skills__item"><a class="skills__link" href="http://htmlbook.ru/samhtml5"
+                                    target="_blank">HTML5</a>
+                            </li>
+                            <li class="skills__item"><a class="skills__link" href="http://htmlbook.ru/samcss"
+                                    target="_blank">CSS3</a>
+                            </li>
+                            <li class="skills__item"><a class="skills__link" href="https://learn.javascript.ru"
+                                    target="_blank">JavaScript</a>
+                            </li>
+                            <li class="skills__item">
+                                <a class="skills__link" href="https://code.visualstudio.com" target="_blank">VSCode</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__code">
+                        <h2 class="code__title">Code Example</h2>
+                        <div class="code__ex">
+                            <code class="code"><span>"Return Two Highest Values in List"</span><br>
+                                function twoHighest(arr) {
+                                return [...new Set(arr)].sort((a, b) = b - a).slice(0, 2);
+                                }</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience">
+                <div class="wrapper">
+                    <div class="experience__intro">
+                        <div class="experience__exp">
+                            <h2 class="experience__title">Experience</h2>
+                            <p class="experience__text">I have no experience in programming.</p>
+                        </div>
+                        <div class="experience__exp">
+                            <h2 class="experience__title">Education</h2>
+                            <p class="experience__text">Incomplete higher education at the Belarusian-Russian University
+                            </p>
+                        </div>
+                        <div class="experience__exp">
+                            <h2 class="experience__title">English</h2>
+                            <p class="experience__text">A2</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="social">
+                    <div class="social__item">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img class="social__link" src="assets/svg/rs_school_js.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="social__item">
+                        <a href="https://github.com/irre13" target="_blank">
+                            <img class="social__link" src="assets/svg/github.svg" alt="github">
+                        </a>
+                    </div>
+                    <div class="social__item">
+                        <p class="year">2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
